@@ -1481,3 +1481,26 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+
+/* -------------- */
+
+#stacker
+{
+  position: relative;
+}
+
+#hero 
+{
+  position: absolute;
+  top: 0;
+  right:0;
+  left: 0;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
