@@ -99,7 +99,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #202020;
+  background-color: #000000;
 }
 
 .overlay-mf {
@@ -109,7 +109,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .paralax-mf {
@@ -701,7 +701,7 @@ a:hover {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #0078ff;
+  color: #000000;
 }
 
 .navbar-mobile .getstarted,
@@ -859,7 +859,7 @@ a:hover {
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #e4e4e4;
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
   height: 0.7rem;
@@ -867,7 +867,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #555555;
+  background-color: #5b5b5b;
 }
 
 /*--------------------------------------------------------------
@@ -1515,4 +1515,23 @@ footer .credits a {
 #footer_details
 {
   margin-top: 100px;
+}
+
+.call_to_action
+{
+  background-color: #42426a;
+  border: 1px black solid;
+  color: white;    padding: 10px;
+  font-weight: 600;
+}
+
+.call_to_action:hover
+{
+  background-color: #42426a;
+  border: none;
+}
+
+.must_wrap_word
+{
+  word-wrap: break-word;
 }

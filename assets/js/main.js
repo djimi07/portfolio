@@ -229,8 +229,8 @@
 
   /* ------ custom --------- */
 
-  VANTA.NET({
-      el: "#statistics",
+    VANTA.NET({
+      el: "#hero",
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
