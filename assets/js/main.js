@@ -1,9 +1,3 @@
-/**
-* Template Name: DevFolio - v4.10.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -230,5 +224,38 @@
    * Initiate Pure Counter 
    */
   new PureCounter();
+
+
+
+  /* ------ custom --------- */
+
+  VANTA.NET({
+      el: "#statistics",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x5d5df7,
+      backgroundColor: 0x0,
+      maxDistance: 30.00
+    }) 
+
+    VANTA.NET({
+      el: ".hero-single",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x5d5df7,
+      backgroundColor: 0x0,
+      maxDistance: 30.00
+    }) 
+
 
 })()
