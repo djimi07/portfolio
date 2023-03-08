@@ -1,4 +1,4 @@
-(function() {
+ (function() {
   "use strict";
 
   /**
@@ -255,7 +255,7 @@
       color: 0x5d5df7,
       backgroundColor: 0x0,
       maxDistance: 30.00
-    }) 
+ }) 
 
 
 })()

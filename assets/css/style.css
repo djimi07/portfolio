@@ -109,7 +109,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 .paralax-mf {
@@ -1534,4 +1534,9 @@ footer .credits a {
 .must_wrap_word
 {
   word-wrap: break-word;
+}
+
+.overlay-mf.index
+{
+  opacity: 0.9;
 }
